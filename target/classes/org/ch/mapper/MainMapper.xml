@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.ch.mapper.MainMapper">
+
+	<!-- 방 예약시 분류 -->
+	<select id="room1" resultType="org.ch.model.MainVO">
+		select distinct(room1) from
+		rooms
+	</select>
+
+	<select id="room2" resultType="org.ch.model.MainVO">
+		select room2 from rooms
+		where
+		room1=#{room1}
+	</select>
+	
+	<!-- 회원가입 한 사람들의 예약 -->
+	<insert id="reservation">
+	insert into reservation(checkin,checkout,roomname,adult,kid,memberid)
+	values(#{checkin},#{checkout},#{roomname},#{adult},#{kid},#{memberid});
+	</insert>
+	
+	<insert id="join">
+		insert into members(memberid, memberpw, membername, phonenumber, birthday,
+		addr, addr2, zipcode)
+		values(#{memberid},#{memberpw},#{membername},#{phonenumber},#{birthday},#{addr},#{addr2},#{zipcode});
+	</insert>
+
+	<select id="login" resultType="org.ch.model.MainVO">
+		select memberid, memberpw
+		from members
+		where memberid =#{memberid} and memberpw = #{memberpw};
+	</select>
+
+	<!-- 아이디 중복검사 -->
+	<select id="memberidCheck" resultType="int">
+		select count(*)
+		from members
+		where memberid = #{memberid}
+	</select>
+
+	<!-- 휴대폰 중복검사 -->
+	<select id="phonenumberCheck" resultType="int">
+		select count(*)
+		from members
+		where phonenumber = #{phonenumber}
+	</select>
+
+</mapper>

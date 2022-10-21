@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.Allscreen {
+	display: flex;
+	flex-direction: column;
+	min-height: 600px;
+	text-align: center;
+	list-style: none;
+}
+
+#checkmenu {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+#information {
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%
+}

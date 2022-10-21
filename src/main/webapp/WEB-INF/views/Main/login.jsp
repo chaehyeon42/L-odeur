@@ -23,7 +23,7 @@
 					</div>
 
 					<div id="member">
-					<a href="#" class="logina"><p>reservation</p></a>
+					<a href="/reservation" class="logina"><p>reservation</p></a>
 					</div>
 
 					<input type="checkbox" id="icon"> <label for="icon">

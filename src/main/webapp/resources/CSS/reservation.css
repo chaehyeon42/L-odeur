@@ -9,18 +9,57 @@
 	min-height: 600px;
 	text-align: center;
 	list-style: none;
+	margin-top: 120px;
+}
+
+.Title {
+	font-size: 25pt;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-weight: bold;
 }
 
 #checkmenu {
 	display: flex;
-	justify-content: space-evenly;
-	width: 100%;
+	justify-content: space-around;
+	width: 60%;
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+	border-top: 3px solid #0000ff;
+	margin-left: 350px;
+	margin-top:22px;
+	font-size: 22pt;
+	font-weight: 100;
 }
 
 #information {
 	align-items: center;
-	border-bottom: 1px solid #ccc;
 	display: flex;
-	justify-content: space-evenly;
-	width: 100%
+	justify-content: space-between;
+	width: 60%;
+	margin-left: 350px;
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+}
+
+#inform {
+	list-style: none;
+}
+
+#informmenu{
+	text-align: left;
+    padding: 10px;
+    font-size: 13pt;
+}
+
+#inform2{
+	text-align: left;
+	font-size: 13pt;
+}
+
+#Lookup{
+	font-size: 15pt;
+}
+
+.RN{
+		padding: 10px;
 }

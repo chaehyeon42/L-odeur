@@ -5,43 +5,51 @@
 
 <div class="reservationfull">
 	<div class="Allscreen">
-		<p>예약 조회 및 확인</p>
+		<p class="Title">예약 조회 및 확인</p>
 	<div class="lookup">
 		<ul id="checkmenu">
-			<li id="checksub">detail</li>
-			<li id="checksub">information</li>
+			<li id="checksub">Detail</li>
+			<li id="checksub">Information</li>
 		</ul>
 		
+		<c:forEach items="${reser}" var="reser">
 		<ul id="information">
 			<li>
-				<ul>
-					<li>"예약자 명:" <span></span></li>
-					<li>"Checkin/Checkout"
-					<span></span>
+				
+				<ul id="inform">
+					<li id="informmenu">예약자 명: <span id="Lookup">${reser.membername}</span></li>
+					<li id="informmenu">예약자 아이디: <span id="Lookup">${reser.memberid}</span></li>
+					<li id="informmenu">Checkin/Checkout:
+					<span id="Lookup">${reser.checkin}</span>
 					~
-					<span></span>
+					<span id="Lookup">${reser.checkout}</span>
 					</li>
-					<li>
-					"Adult:" <span></span>
-					"Kid:" <span></span>
+					<li id="informmenu">
+					Adult: <span id="Lookup">${reser.adult}</span>
+					Kid: <span id="Lookup">${reser.kid}</span>
 					</li>
-					<li>
+					<li id="informmenu">
 					<button class="cancel" type="submit">예약취소</button>
 					</li>
 				</ul>
 			</li>
 			
 			<li>
-				<p>
-				"RoomName:"
-				<span></span>
+			<ul id="inform2">
+				
+				<p class="RN">
+				RoomName:
+				<span id="Lookup">${reser.roomname}</span>
 				</p>
-				<p>
-				"entrance/exit:"
-				<span>P.M 14:00 ~ A.M 12:00</span> 
+				
+				<p class="RN">
+				entrance/exit:
+				<span id="Lookup">P.M 14:00 ~ A.M 12:00</span> 
 				</p>
+			</ul>
 			</li>
 		</ul>
+		</c:forEach>
 	</div>
 	</div>
 </div>

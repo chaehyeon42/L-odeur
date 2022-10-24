@@ -57,7 +57,13 @@ public class MainController {
 	
 	//예약 화면
 	@RequestMapping(value="/reservation", method = RequestMethod.GET)
-	public String reservation(MainVO mainvo) {
+	public String reservation(MainVO mainvo,Model model, HttpSession session) {
+		// memberid변수에 session에 저장되어 있는 memberid를 가져와서 저장(obj 타입이므로 String 타입으로 형변환을 해줌)
+		String memberid=(String)session.getAttribute("memberid");
+		// MainVO객체에 있는 memberid변수에 session값 저장
+		mainvo.setMemberid(memberid);
+		
+		model.addAttribute("reser",MS.reser());
 		
 		return "Main/reservation";
 	}

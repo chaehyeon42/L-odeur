@@ -30,6 +30,11 @@ public class MainServiceImpl implements MainService {
 			Ma.reservation(mainvo);
 		}
 		
+		//예약후 예약 확인
+		public ArrayList<MainVO> reser() {
+			return Ma.reser();
+		}
+		
 		//회원가입
 		 public void join(MainVO mainvo) {
 			 Ma.join(mainvo);
@@ -54,7 +59,6 @@ public class MainServiceImpl implements MainService {
 		    }
 		    
 		  //로그인
-		    //로그인
 			 public boolean login(MainVO mainvo, HttpSession session) {
 				 MainVO login=Ma.login(mainvo);
 				 boolean result=false;

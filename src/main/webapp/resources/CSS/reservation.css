@@ -9,7 +9,8 @@
 	min-height: 600px;
 	text-align: center;
 	list-style: none;
-	margin-top: 120px;
+	margin-top: 60px;
+	position: relative;
 }
 
 .Title {
@@ -26,7 +27,7 @@
 	border-bottom: 1px solid #ccc;
 	border-top: 3px solid #0000ff;
 	margin-left: 350px;
-	margin-top:22px;
+	margin-top: 22px;
 	font-size: 22pt;
 	font-weight: 100;
 }
@@ -45,21 +46,33 @@
 	list-style: none;
 }
 
-#informmenu{
+#informmenu {
 	text-align: left;
-    padding: 10px;
-    font-size: 13pt;
-}
-
-#inform2{
-	text-align: left;
+	padding: 10px;
 	font-size: 13pt;
 }
 
-#Lookup{
+#inform2 {
+	text-align: left;
+	font-size: 13pt;
+	margin-right: 50px;
+}
+
+.cancel {
+    width: 130px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid;
+    border-color: #FFD8D8;
+    border-top-color: #F15F5F;
+    border-bottom-color: #F15F5F;
+    font-size: 12pt;
+}
+
+#Lookup {
 	font-size: 15pt;
 }
 
-.RN{
-		padding: 10px;
+.RN {
+	padding: 10px;
 }

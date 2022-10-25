@@ -31,8 +31,8 @@ public class MainServiceImpl implements MainService {
 		}
 		
 		//예약후 예약 확인
-		public ArrayList<MainVO> reser() {
-			return Ma.reser();
+		public ArrayList<MainVO> reser(MainVO mainvo) {
+			return Ma.reser(mainvo);
 		}
 		
 		//회원가입

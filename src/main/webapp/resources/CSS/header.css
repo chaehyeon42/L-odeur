@@ -8,7 +8,6 @@ html, body {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
-	overflow: hidden;
 	font-family: sans-serif;
 }
 
@@ -125,7 +124,7 @@ body {
 	padding: 60px 25px 25px 25px;
 	box-sizing: border-box;
 	right: -420px;
-	/* z-index: 1; */
+	z-index: 1;
 	transition: all 0.35s;
 }
 

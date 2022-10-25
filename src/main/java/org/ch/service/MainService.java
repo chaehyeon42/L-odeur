@@ -17,7 +17,7 @@ public interface MainService {
 	public void reservation(MainVO mainvo);
 	
 	//예약후 예약 확인
-	public ArrayList<MainVO> reser();
+	public ArrayList<MainVO> reser(MainVO mainvo);
 	
 	//회원가입
 	 public void join(MainVO mainvo);

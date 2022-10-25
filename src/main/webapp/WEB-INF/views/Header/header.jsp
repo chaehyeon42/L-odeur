@@ -7,6 +7,7 @@
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 <link rel="stylesheet" href="../../../resources/CSS/header.css">
+
 </head>
 <body>
 <!-- 헤더부분 -->

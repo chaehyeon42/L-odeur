@@ -318,6 +318,16 @@ input#CHECK-OUT {
 	font-family: NanumSquare;
 }
 
+#numberUpDown{
+	width: 20px;
+    text-align: center;
+}
+
+.result{
+	width: 20px;
+    text-align: center;
+}
+
 #reservation {
 	background: #000;
 	border: none;

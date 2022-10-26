@@ -4,8 +4,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <link rel="stylesheet" href="../../../resources/CSS/header.css">
 
 </head>
@@ -59,5 +60,3 @@
 				</div>
 			</div>
 		<!-- 헤더부분 끝 -->
-</body>
-</html>

@@ -68,7 +68,14 @@ public class MainController {
 		return "Main/reservation";
 	}
 	
-	
+	//예약 취소
+	@RequestMapping(value="/reservation/{bno}", method = RequestMethod.DELETE)
+	public ResponseEntity<String> reservation(@PathVariable int bno){
+		System.out.println("삭제="+bno);
+		int result=MS.cancel(bno);
+		return result == 1 ? new ResponseEntity<>("success", HttpStatus.OK)
+				: new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+}
 	
 	//로그인 화면
     @RequestMapping(value = "/login", method = RequestMethod.GET)

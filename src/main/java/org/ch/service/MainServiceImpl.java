@@ -35,6 +35,11 @@ public class MainServiceImpl implements MainService {
 			return Ma.reser(mainvo);
 		}
 		
+		//예약 삭제
+		public int cancel(int bno) {
+			return Ma.cancel(bno);
+		}
+		
 		//회원가입
 		 public void join(MainVO mainvo) {
 			 Ma.join(mainvo);

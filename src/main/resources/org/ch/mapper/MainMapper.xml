@@ -19,7 +19,8 @@
 
 	<!-- 회원가입 한 사람들의 예약 -->
 	<insert id="reservation">
-		insert into reservation(checkin,checkout,roomname,adult,kid,memberid)
+		insert into
+		reservation(checkin,checkout,roomname,adult,kid,memberid)
 		values(#{checkin},#{checkout},#{roomname},#{adult},#{kid},#{memberid});
 	</insert>
 
@@ -40,11 +41,19 @@
 	<!-- 예약 후 예약 확인 -->
 	<select id="reser" resultType="org.ch.model.MainVO">
 		select
-		checkin,checkout,roomname,adult,kid,m.membername,r.memberid
-		from reservation r join members m
+		checkin,checkout,roomname,adult,kid,m.membername,r.memberid,bno
+		from
+		reservation r join members m
 		on r.memberid = m.memberid
-		where r.memberid= #{memberid}
+		where
+		r.memberid= #{memberid}
 	</select>
+
+	<!-- 예약 삭제 -->
+	<delete id="cancel">
+		delete from reservation
+		where bno=#{bno}
+	</delete>
 
 	<!-- 아이디 중복검사 -->
 	<select id="memberidCheck" resultType="int">

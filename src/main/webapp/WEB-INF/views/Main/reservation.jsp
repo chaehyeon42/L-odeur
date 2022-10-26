@@ -15,8 +15,8 @@
 		<c:forEach items="${reser}" var="reser">
 		<ul id="information">
 			<li>
-				
 				<ul id="inform">
+					<li id="informmenu"><input type="hidden" id="bno" name="bno" value="${reser.bno}"></li>
 					<li id="informmenu">예약자 명: <span id="Lookup">${reser.membername}</span></li>
 					<li id="informmenu">예약자 아이디: <span id="Lookup">${reser.memberid}</span></li>
 					<li id="informmenu">Checkin/Checkout:
@@ -29,7 +29,7 @@
 					Kid: <span id="Lookup">${reser.kid}</span>
 					</li>
 					<li id="informmenu">
-					<button class="cancel" type="submit">예약취소</button>
+					<input class="cancel" name="cancel" type="submit" value="예약취소">
 					</li>
 				</ul>
 			</li>
@@ -53,5 +53,6 @@
 	</div>
 	</div>
 </div>
+<script type="text/javascript" src="../../../resources/JS/reservation.js"></script>
 </body>
 </html>

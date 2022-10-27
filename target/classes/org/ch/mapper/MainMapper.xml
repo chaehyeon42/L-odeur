@@ -50,7 +50,7 @@
 	</select>
 
 	<!-- 예약 삭제 -->
-	<delete id="cancel">
+	<delete id="remove">
 		delete from reservation
 		where bno=#{bno}
 	</delete>

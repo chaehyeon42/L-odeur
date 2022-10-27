@@ -3,6 +3,7 @@
 <%@ include file="../Header/header.jsp" %>
 <link rel="stylesheet" href="../../../resources/CSS/reservation.css">
 
+
 <div class="reservationfull">
 	<div class="Allscreen">
 		<p class="Title">예약 조회 및 확인</p>
@@ -28,8 +29,15 @@
 					Adult: <span id="Lookup">${reser.adult}</span>
 					Kid: <span id="Lookup">${reser.kid}</span>
 					</li>
+					
 					<li id="informmenu">
-					<input class="cancel" name="cancel" type="submit" value="예약취소">
+						<div id="chat">
+						<ul id="replyUL">
+						<li>
+						<input class='remove' type='button' value='삭제' data-bno="${reser.bno}">
+						</li>
+						</ul>
+						</div>
 					</li>
 				</ul>
 			</li>

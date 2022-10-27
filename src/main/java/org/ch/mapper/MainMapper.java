@@ -18,7 +18,7 @@ public interface MainMapper {
 	public ArrayList<MainVO> reser(MainVO mainvo);
 	
 	//예약 삭제
-	 public int cancel(int bno);
+	 public int remove(int bno);
 	
 	// 회원가입
 	public void join(MainVO mainvo);

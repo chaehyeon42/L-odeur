@@ -69,10 +69,11 @@ public class MainController {
 	}
 	
 	//예약 취소
-	@RequestMapping(value="/reservation/{bno}", method = RequestMethod.DELETE)
-	public ResponseEntity<String> reservation(@PathVariable int bno){
+	@RequestMapping(value="/reservation/remove/{bno}", method = RequestMethod.DELETE)
+	public ResponseEntity<String> reservationremove(@PathVariable int bno){
 		System.out.println("삭제="+bno);
-		int result=MS.cancel(bno);
+		int result=MS.remove(bno);
+		System.out.println(result);
 		return result == 1 ? new ResponseEntity<>("success", HttpStatus.OK)
 				: new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 }

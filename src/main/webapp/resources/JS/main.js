@@ -3,7 +3,7 @@ $(document).ready(function(){
 	quickClick();
 });
 function fullset(){
-	var pageindex = $("#fullpage > .fullsection").size(); //fullpage 안에 섹션이(.fullsection) 몇개인지 확인하기
+	var pageindex = $("#fullpage > .fullsection").length; //fullpage 안에 섹션이(.fullsection) 몇개인지 확인하기
 	for(var i=1;i<=pageindex;i++){
 		$("#fullpage > .quick > ul").append("<li></li>");
 	}
@@ -28,10 +28,10 @@ function fullset(){
 			}	
 		}else{ // 마우스 휠을 아래로	
 			var nextPage=parseInt(page.index()+1); //다음페이지번호
-			var lastPageNum=parseInt($(".quick ul li").size()); //마지막 페이지번호
+			var lastPageNum=parseInt($(".quick ul li").length); //마지막 페이지번호
 			//현재페이지번호 <= (마지막 페이지 번호 - 1)
 			//이럴때 퀵버튼옮기기
-			if(page.index() <= $(".quick ul li").size()-1){ 
+			if(page.index() <= $(".quick ul li").length-1){ 
 				page.next().addClass("on").siblings(".on").removeClass("on");
 			}
 			

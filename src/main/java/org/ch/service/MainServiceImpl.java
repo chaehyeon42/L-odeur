@@ -36,8 +36,8 @@ public class MainServiceImpl implements MainService {
 		}
 		
 		//예약 삭제
-		public int cancel(int bno) {
-			return Ma.cancel(bno);
+		public int remove(int bno) {
+			return Ma.remove(bno);
 		}
 		
 		//회원가입

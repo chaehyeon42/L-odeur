@@ -18,21 +18,23 @@ function remove(bno) {
 	let remove = confirm("예약취소 하시겠습니까?")
 	console.log(bno);
 
-$.ajax({
-		type : "DELETE",
-		url : "/reservation/remove/" + bno,
-		data : JSON.stringify(bno),
-		success : function(result) {
-					console.log(result)
-					if (result == "success"){
-					alert("댓글삭제 성공")
-					// 새로고침
-					location.reload();
-					}else if(result != "success"){
-						alert("예약취소를 실패했습니다.");
-					}
-				}
-			})
-		}
+	if(remove){
+					$.ajax({
+							type : "DELETE",
+							url : "/reservation/remove/" + bno,
+							data : JSON.stringify(bno),
+							success : function(result) {
+								console.log(result)
+								if (result == "success"){
+											alert("예약취소에 성공했습니다.")
+											// 새로고침
+											location.reload();
+										}				
+									}
+							})
+						}else{
+								alert("취소가 안되었습니다.");
+													}
 
+						}
 })

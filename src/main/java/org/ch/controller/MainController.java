@@ -129,6 +129,19 @@ public class MainController {
     	MS.join(mainvo);
     	return "redirect:/login";
     }
+    
+    //칵테일 바 화면
+    @RequestMapping(value = "/Bar", method = RequestMethod.GET)
+    public String bar() {
+		return "Main/Bar";
+    }
+    
+  //방 화면
+    @RequestMapping(value = "/Room", method = RequestMethod.GET)
+    public String room() {
+		return "Main/Room";
+    }
+    
 	
 	
 }

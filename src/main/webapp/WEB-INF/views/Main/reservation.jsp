@@ -34,8 +34,8 @@
 						<div id="chat">
 						<ul id="replyUL">
 						<li>
-						<input class='remove' type='button' value='삭제' data-bno="${reser.bno}">
-						</li>
+						<input class='remove' type='button' value='예약 취소' data-bno="${reser.bno}">
+						</li> 
 						</ul>
 						</div>
 					</li>

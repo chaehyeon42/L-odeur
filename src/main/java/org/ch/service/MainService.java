@@ -19,6 +19,7 @@ public interface MainService {
 	//예약후 예약 확인
 	public ArrayList<MainVO> reser(MainVO mainvo);
 	
+	
 	//예약 삭제
 	 public int remove(int bno);
 	

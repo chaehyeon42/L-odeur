@@ -20,6 +20,7 @@ public interface MainMapper {
 	//예약 삭제
 	 public int remove(int bno);
 	
+	 
 	// 회원가입
 	public void join(MainVO mainvo);
 	

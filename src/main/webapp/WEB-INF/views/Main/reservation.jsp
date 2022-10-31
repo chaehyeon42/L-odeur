@@ -52,7 +52,7 @@
 				
 				<p class="RN">
 				entrance/exit:
-				<span id="Lookup">P.M 14:00 ~ A.M 12:00</span> 
+				<span id="Lookup">P.M 18:00 ~ P.M 13:00</span> 
 				</p>
 			</ul>
 			</li>

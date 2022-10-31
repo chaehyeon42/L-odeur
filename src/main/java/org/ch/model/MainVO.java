@@ -11,6 +11,13 @@ public class MainVO {
 	private String room1;	//방 선택
 	private String room2;	//방 선택 후 확인	
 	
+	//방 상세정보
+	private String price;  //방가격
+	private String people;  //수용인원
+	private String structure;  //방구조
+	private String bed;  //침대 수
+	
+	
 	//로그인 정보
 	private String memberid;	//아이디
 	private String memberpw;	//비밀번호
@@ -76,6 +83,31 @@ public class MainVO {
 		this.room2 = room2;
 	}
 	
+	
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
+	}
+	public String getPeople() {
+		return people;
+	}
+	public void setPeople(String people) {
+		this.people = people;
+	}
+	public String getStructure() {
+		return structure;
+	}
+	public void setStructure(String structure) {
+		this.structure = structure;
+	}
+	public String getBed() {
+		return bed;
+	}
+	public void setBed(String bed) {
+		this.bed = bed;
+	}
 	//로그인때 사용
 	public String getMemberid() {
 		return memberid;
@@ -133,9 +165,10 @@ public class MainVO {
 	@Override
 	public String toString() {
 		return "MainVO [bno=" + bno + ", adult=" + adult + ", kid=" + kid + ", roomname=" + roomname + ", checkin="
-				+ checkin + ", checkout=" + checkout + ", room1=" + room1 + ", room2=" + room2 + ", memberid="
-				+ memberid + ", memberpw=" + memberpw + ", membername=" + membername + ", birthday=" + birthday
-				+ ", addr=" + addr + ", phonenumber=" + phonenumber + ", addr2=" + addr2 + ", zipcode=" + zipcode + "]";
+				+ checkin + ", checkout=" + checkout + ", room1=" + room1 + ", room2=" + room2 + ", price=" + price
+				+ ", people=" + people + ", structure=" + structure + ", bed=" + bed + ", memberid=" + memberid
+				+ ", memberpw=" + memberpw + ", membername=" + membername + ", birthday=" + birthday + ", addr=" + addr
+				+ ", phonenumber=" + phonenumber + ", addr2=" + addr2 + ", zipcode=" + zipcode + "]";
 	}
 	
 	

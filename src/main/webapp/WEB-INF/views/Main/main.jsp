@@ -101,9 +101,9 @@
 
 				<div class="fullsection full1" pageNum="1">
 					<div class="slide">
-						<img src="../../../resources/img/Hotel.jpg" id="mainimg"> <img
-							src="../../../resources/img/Hotel2.jpg" id="mainimg"> <img
-							src="../../../resources/img/Hotel3.jpg" id="mainimg">
+						<img src="../../../resources/img/Hotel.jpg" id="mainimg"> 
+						<img src="../../../resources/img/Hotel2.jpg" id="mainimg"> 
+						<img src="../../../resources/img/Hotel3.jpg" id="mainimg">
 					</div>
 				</div>
 

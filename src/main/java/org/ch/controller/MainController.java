@@ -78,6 +78,14 @@ public class MainController {
 				: new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 }
 	
+	  //방 화면
+    @RequestMapping(value = "/Room", method = RequestMethod.GET)
+    public String room(MainVO mainvo) {
+    	
+		return "Main/Room";
+    }
+	
+	
 	//로그인 화면
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String login(MainVO mainvo) {
@@ -136,12 +144,7 @@ public class MainController {
 		return "Main/Bar";
     }
     
-  //방 화면
-    @RequestMapping(value = "/Room", method = RequestMethod.GET)
-    public String room() {
-		return "Main/Room";
-    }
-    
+
 	
 	
 }

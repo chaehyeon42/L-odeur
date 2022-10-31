@@ -16,7 +16,8 @@
 		where
 		room1=#{room1}
 	</select>
-
+	
+	
 	<!-- 회원가입 한 사람들의 예약 -->
 	<insert id="reservation">
 		insert into

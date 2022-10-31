@@ -40,6 +40,7 @@ public class MainServiceImpl implements MainService {
 			return Ma.remove(bno);
 		}
 		
+		
 		//회원가입
 		 public void join(MainVO mainvo) {
 			 Ma.join(mainvo);

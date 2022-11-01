@@ -30,75 +30,145 @@
 						<img src="../../../resources/img/Standard.jpg" id="standardimg">
 					</div>
 
-					<div id="imfor">
+					<ul id="imfor">
+						<li>
 						<p>STANDARD</p>
+						</li>
+						
+						<li>
 						<p>가격:</p>
 						<p>190,000₩ (1박 기준)</p>
+						</li>
+						
+						<li>
 						<p>수용 인원:</p>
 						<p>2~3인</p>
+						</li>
+						
+						<li>
 						<p>방 구조:</p>
 						<p>거실1,침실1,욕실1</p>
+						</li>
+						
+						<li>
 						<p>침대 수:</p>
 						<p>킹1</p>
+						</li>
+						
+						<li>
 						<p>checkin/checkout:</p>
 						<p>P.M 18:00/P.M 13:00</p>
-					</div>
+						</li>
+					</ul>
 				</li>
 
-				<li id="deluxe">
-					<div id="del">
-						<img src="../../../resources/img/Deluxe.jpg" id="deluxeimg">
-					</div>
-					<div id="imfor">
+				<li id="standard">
+
+					<ul id="imfor">
+					<li>
 						<p>DELUXE</p>
+					</li>
+					
+					<li>	
 						<p>가격:</p>
 						<p>230,000₩ (1박 기준)</p>
+					</li>	
+					
+					<li>	
 						<p>수용 인원:</p>
 						<p>2~4인</p>
+					</li>
+					
+					<li>
 						<p>방 구조:</p>
 						<p>거실1,침실3,욕실2</p>
+					</li>
+					
+					<li>	
 						<p>침대 수:</p>
 						<p>퀸1,싱글1,패밀리1</p>
+					</li>
+					
+					<li>
 						<p>checkin/checkout:</p>
 						<p>P.M 18:00/P.M 13:00</p>
+					</li>
+					</ul>
+					<div id="del">
+						<img src="../../../resources/img/Deluxe.jpg" id="standardimg">
 					</div>
 				</li>
 
-				<li id="twin">
+				<li id="standard">
 					<div id="tw">
-						<img src="../../../resources/img/TWIN.jpg" id="twinimg">
+						<img src="../../../resources/img/TWIN.jpg" id="standardimg">
 					</div>
-					<div id="imfor">
+					
+					<ul id="imfor">
+						<li>
 						<p>TWIN</p>
+						</li>
+						
+						<li>
 						<p>가격:</p>
 						<p>210,000₩ (1박 기준)</p>
+						</li>
+						
+						<li>
 						<p>수용 인원:</p>
 						<p>3~4인</p>
+						</li>
+						
+						<li>
 						<p>방 구조:</p>
 						<p>거실1,침실2,욕실2</p>
+						</li>
+						
+						<li>
 						<p>침대 수:</p>
 						<p>트윈1,킹1</p>
+						</li>
+						
+						<li>
 						<p>checkin/checkout:</p>
 						<p>P.M 18:00/P.M 13:00</p>
-					</div>
+						</li>
+					</ul>
 				</li>
 
-				<li id="suite">
-					<div id="sui">
-						<img src="../../../resources/img/suite.jpg" id="suiteimg">
-					</div>
-					<div id="imfor">
+				<li id="standard">
+					<ul id="imfor">
+						<li>
 						<p>SUITE</p>
+						</li>
+						
+						<li>
 						<p>가격:</p>
 						<p>300,000₩ (1박 기준)</p>
+						</li>
+						
+						<li>
 						<p>수용 인원:</p>
 						<p>2~6인</p>
+						</li>
+						
+						<li>
 						<p>방 구조:</p>
 						<p>거실1,침실4,욕실2</p>
+						</li>
+						
+						<li>
 						<p>침대 수:</p>
 						<p>킹1,퀸1,싱글1,슈퍼싱글1</p>
+						</li>
+						
+						<li>
 						<p>checkin/checkout:</p>
 						<p>P.M 18:00/P.M 13:00</p>
+						</li>
+					</ul>
+					<div id="sui">
+						<img src="../../../resources/img/suite.jpg" id="standardimg">
 					</div>
 				</li>
 			</ul>

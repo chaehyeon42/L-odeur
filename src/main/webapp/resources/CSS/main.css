@@ -346,6 +346,48 @@ input#CHECK-OUT {
 	font-family: NanumSquare;
 }
 
+/* 세번째 화면 */
+
+
+
+.introduce {
+	color: #000000;
+	font-size: 16px;
+	left: 50%;
+	position: absolute;
+	text-align: center;
+	top: 30%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+#rooms {
+	font-size: 80pt;
+	font-weight: bolder;
+	-webkit-text-stroke: 4px #8C8C8C;
+	color: white;
+}
+
+#roomtext {
+	font-size: 25pt;
+	color: #BDBDBD;
+	-webkit-text-stroke: 1px black;
+}
+
+.roomtype{
+	display: flex;
+	justify-content: space-between;
+}
+
+.roomtype>a {
+	margin-top: 14px;
+	color: white;
+	-webkit-text-stroke: 1px #990085;
+	font-size: 18pt;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
 /* 메인 마지막 페이지 CSS */
 .action {
 	color: #000000;

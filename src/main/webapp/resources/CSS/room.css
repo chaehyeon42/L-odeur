@@ -3,6 +3,10 @@
 	padding: 0;
 }
 
+li {
+    list-style: none;
+}
+
 #roomimg {
 	height: 980px;
 	width: 100%;
@@ -26,12 +30,12 @@
 	font-size: 80pt;
 	font-weight: bolder;
 	-webkit-text-stroke: 4px #8C8C8C;
-	color:white;
+	color: white;
 }
 
 #roomtext {
 	font-size: 25pt;
-	color:#BDBDBD;
+	color: #BDBDBD;
 	-webkit-text-stroke: 1px black;
 }
 
@@ -43,4 +47,14 @@
 	-webkit-text-stroke: 1px #990085;
 	font-size: 18pt;
 	font-weight: bolder;
+}
+
+#standard {
+	display: flex;
+	justify-content: space-between;
+}
+
+#standardimg {
+	width: 1000px;
+	height: 900px;
 }

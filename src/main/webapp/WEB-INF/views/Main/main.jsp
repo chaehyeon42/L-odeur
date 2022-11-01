@@ -52,6 +52,7 @@
 				<div class="mainmanu">
 
 					<div id="login">
+
 						<c:if test="${empty sessionScope.memberid}">
 							<a href="/login" class="logina"><p>Login</p></a>
 						</c:if>
@@ -76,10 +77,8 @@
 							<li id="Menuhotel"><a href="/main" id="categryfont">About
 									the hotel</a></li>
 
-							<li id="Menuhotel"><a href="/Room" id="categryfont">Rooms</a></li>
-
-							<li id="Menuhotel"><a href="/Bar" id="categryfont">Buffet &
-									Bar</a></li>
+							<li id="Menuhotel"><a href="/Bar" id="categryfont">Buffet
+									& Bar</a></li>
 
 							<li id="Menuhotel"><a href="#" id="categryfont">Swimming
 									pool</a></li>
@@ -101,16 +100,17 @@
 
 				<div class="fullsection full1" pageNum="1">
 					<div class="slide">
-						<img src="../../../resources/img/Hotel.jpg" id="mainimg"> 
-						<img src="../../../resources/img/Hotel2.jpg" id="mainimg"> 
-						<img src="../../../resources/img/Hotel3.jpg" id="mainimg">
+						<img src="../../../resources/img/Hotel.jpg" id="mainimg"> <img
+							src="../../../resources/img/Hotel2.jpg" id="mainimg"> <img
+							src="../../../resources/img/Hotel3.jpg" id="mainimg">
 					</div>
 				</div>
 
 				<div class="fullsection full2" pageNum="2">
 					<img src="../../../resources/img/suite.jpg" id="mainimg">
 
-					<form action="/reservation" method="POST" name="reservationform" id="reservationform">
+					<form action="/reservation" method="POST" name="reservationform"
+						id="reservationform">
 						<ul class="reservation">
 							<!-- 방종류 -->
 							<li id="room"><select id="room1" name="room1">
@@ -122,44 +122,53 @@
 							</select></li>
 
 							<!-- 달력 -->
-							<li id="calender">
-							<span id="CHECKIN" style="color: black">CHECK-IN</span>
-							<span><input type="text" id="datepicker" name="checkin"></span> ~ 
-							
-							<span style="color: black">CHECK-OUT</span> 
-							<span><input type="text" id="CHECK-OUT" name="checkout"></span>
-							</li>
+							<li id="calender"><span id="CHECKIN" style="color: black">CHECK-IN</span>
+								<span><input type="text" id="datepicker" name="checkin"></span>
+								~ <span style="color: black">CHECK-OUT</span> <span><input
+									type="text" id="CHECK-OUT" name="checkout"></span></li>
 
 							<!-- 인원수 -->
-							<li id="person">
-							<span id="personnroom2"> 
-							<select id="room2" name="roomname">
-								<option>"방을 선택해주세요"</option>
-							</select>
+							<li id="person"><span id="personnroom2"> <select
+									id="room2" name="roomname">
+										<option>"방을 선택해주세요"</option>
+								</select>
 							</span>
 
-								<hr> <span id="personnel">어른(Adult)
-										<input type="text" id="numberUpDown" name="adult" value="0">
-										<button type="button" id="increaseQuantity">+</button> 
-										<button type="button" id="decreaseQuantity">-</button>
+								<hr> <span id="personnel">어른(Adult) <input
+									type="text" id="numberUpDown" name="adult" value="0">
+									<button type="button" id="increaseQuantity">+</button>
+									<button type="button" id="decreaseQuantity">-</button>
 							</span>
 
-								<hr> <span id="personnel">아이(Kid) 
-									<input type="text" class="result" name="kid" value="0">
+								<hr> <span id="personnel">아이(Kid) <input type="text"
+									class="result" name="kid" value="0">
 									<button type="button" id="plus" class="but" value="+">+</button>
 									<button type="button" id="minus" class="but" value="-">-</button>
-							</span>
-							<span id="personnel">
-									<input type="hidden" value="${sessionScope.memberid}" name="memberid">
-							</span> 
-							</li>
+							</span> <span id="personnel"> <input type="hidden"
+									value="${sessionScope.memberid}" name="memberid">
+							</span></li>
 						</ul>
-						<button id="reservation" type="submit">예약하러 가기(reservation)</button>	
-							
+						<button id="reservation" type="submit">예약하러
+							가기(reservation)</button>
+
 					</form>
 				</div>
 
 				<div class="fullsection full3" pageNum="3">
+					<img src="../../../resources/img/hall.jpg" id="mainimg">
+
+					<div class="introduce">
+						<p id="rooms">Rooms</p>
+						<p id="roomtext">고객님의 편안한 휴식을 위한 공간</p>
+
+						<div class="roomtype">
+							<a href="#"><p>STANDARD</p></a> <a href="#"><p>DELUXE</p></a> <a
+								href="#"><p>TWIN</p></a> <a href="#"><p>SUITE</p></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="fullsection full4" pageNum="4">
 					<img src="../../../resources/img/page3main.jpg" id="mainimg">
 
 					<div class="action">

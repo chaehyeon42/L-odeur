@@ -17,6 +17,11 @@ public class MainVO {
 	private String structure;  //방구조
 	private String bed;  //침대 수
 	
+	//침실 사진 정보
+	private String filename;	//이미지 파일 이름
+	private String division;	//이미지 구분
+	private String uploadPath;	//이미지 파일 경로
+	private boolean image;		//이미지 파일인지 아닌지에 대한 정보
 	
 	//로그인 정보
 	private String memberid;	//아이디
@@ -68,8 +73,32 @@ public class MainVO {
 	public void setCheckout(String checkout) {
 		this.checkout = checkout;
 	}
-	
-
+	//이미지에 관한 정보
+	public String getFilename() {
+		return filename;
+	}
+	public void setFilename(String filename) {
+		this.filename = filename;
+	}
+	public String getDivision() {
+		return division;
+	}
+	public void setDivision(String division) {
+		this.division = division;
+	}
+	public String getUploadPath() {
+		return uploadPath;
+	}
+	public void setUploadPath(String uploadPath) {
+		this.uploadPath = uploadPath;
+	}
+	public boolean isImage() {
+		return image;
+	}
+	public void setImage(boolean image) {
+		this.image = image;
+	}
+	//방에 관한 정보
 	public String getRoom1() {
 		return room1;
 	}
@@ -82,8 +111,6 @@ public class MainVO {
 	public void setRoom2(String room2) {
 		this.room2 = room2;
 	}
-	
-	
 	public String getPrice() {
 		return price;
 	}
@@ -166,9 +193,10 @@ public class MainVO {
 	public String toString() {
 		return "MainVO [bno=" + bno + ", adult=" + adult + ", kid=" + kid + ", roomname=" + roomname + ", checkin="
 				+ checkin + ", checkout=" + checkout + ", room1=" + room1 + ", room2=" + room2 + ", price=" + price
-				+ ", people=" + people + ", structure=" + structure + ", bed=" + bed + ", memberid=" + memberid
-				+ ", memberpw=" + memberpw + ", membername=" + membername + ", birthday=" + birthday + ", addr=" + addr
-				+ ", phonenumber=" + phonenumber + ", addr2=" + addr2 + ", zipcode=" + zipcode + "]";
+				+ ", people=" + people + ", structure=" + structure + ", bed=" + bed + ", filename=" + filename
+				+ ", division=" + division + ", uploadPath=" + uploadPath + ", image=" + image + ", memberid="
+				+ memberid + ", memberpw=" + memberpw + ", membername=" + membername + ", birthday=" + birthday
+				+ ", addr=" + addr + ", phonenumber=" + phonenumber + ", addr2=" + addr2 + ", zipcode=" + zipcode + "]";
 	}
 	
 	

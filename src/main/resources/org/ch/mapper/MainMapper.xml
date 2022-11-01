@@ -17,6 +17,10 @@
 		room1=#{room1}
 	</select>
 	
+	<!-- 방 정보 -->
+	<select id="room" resultType="org.ch.model.MainVO">
+	select*from rommimg where bno=#{bno};
+	</select>	
 	
 	<!-- 회원가입 한 사람들의 예약 -->
 	<insert id="reservation">

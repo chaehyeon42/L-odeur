@@ -19,7 +19,12 @@
 	
 	<!-- 방 정보 -->
 	<select id="room" resultType="org.ch.model.MainVO">
-	select*from rommimg where bno=#{bno};
+	select bno,roomname,division,concat(Replace(uploadPath,'\\','/') ,'/','-' ,filename)AS filename,room1,price,people,structure,bed,checkin,checkout
+	from(
+		select*
+			FROM(
+				select R.bno,roomname,division,filename,uploadPath,room1,price,people,structure,bed,checkin,checkout
+					from rooms s join rommimg r on s.bno=r.bno where room1=#{room1} and image='1' and division='m')AS j ) AS tmp ;
 	</select>	
 	
 	<!-- 회원가입 한 사람들의 예약 -->

@@ -21,6 +21,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 
 
+
 @Controller
 public class MainController {
 
@@ -78,12 +79,15 @@ public class MainController {
 				: new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 }
 	
-	  //방 화면
-    @RequestMapping(value = "/Room", method = RequestMethod.GET)
-    public String room(MainVO mainvo) {
-    	
+	 //방 화면
+	@RequestMapping(value = "/Room", method = RequestMethod.GET)
+	public String Coner(MainVO mainvo,Model model) {
+		System.out.println("controller="+mainvo);
+		System.out.println("service="+MS.room(mainvo));
+		model.addAttribute("room", MS.room(mainvo));
 		return "Main/Room";
-    }
+	}
+
 	
 	
 	//로그인 화면

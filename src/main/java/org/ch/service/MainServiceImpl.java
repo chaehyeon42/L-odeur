@@ -40,6 +40,10 @@ public class MainServiceImpl implements MainService {
 			return Ma.remove(bno);
 		}
 		
+		//방분류 페이지 설계
+		public ArrayList<MainVO> room(MainVO mainvo){
+			return Ma.room(mainvo);
+		}
 		
 		//회원가입
 		 public void join(MainVO mainvo) {

@@ -8,6 +8,7 @@ import org.ch.model.MainVO;
 
 
 
+
 public interface MainService {
 	//방예약(분류)
 	public ArrayList<MainVO> room1(); 
@@ -19,6 +20,8 @@ public interface MainService {
 	//예약후 예약 확인
 	public ArrayList<MainVO> reser(MainVO mainvo);
 	
+	//방분류 페이지 설계
+	public ArrayList<MainVO> room(MainVO mainvo);
 	
 	//예약 삭제
 	 public int remove(int bno);

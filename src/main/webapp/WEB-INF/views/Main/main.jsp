@@ -162,8 +162,10 @@
 						<p id="roomtext">고객님의 편안한 휴식을 위한 공간</p>
 
 						<div class="roomtype">
-							<a href="#"><p>STANDARD</p></a> <a href="#"><p>DELUXE</p></a> <a
-								href="#"><p>TWIN</p></a> <a href="#"><p>SUITE</p></a>
+							<a href="/Room?room1=standard"><p>STANDARD</p></a> 
+							<a href="/Room?room1=deluxe"><p>DELUXE</p></a> 
+							<a href="/Room?room1=twin"><p>TWIN</p></a> 
+							<a href="/Room?room1=suite"><p>SUITE</p></a>
 						</div>
 					</div>
 				</div>

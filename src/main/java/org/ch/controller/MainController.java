@@ -82,7 +82,7 @@ public class MainController {
 	 //방 화면
 	@RequestMapping(value = "/Room", method = RequestMethod.GET)
 	public String Coner(MainVO mainvo,Model model) {
-		System.out.println("controller="+mainvo);
+		//System.out.println("controller="+mainvo);
 		System.out.println("service="+MS.room(mainvo));
 		model.addAttribute("room", MS.room(mainvo));
 		return "Main/Room";

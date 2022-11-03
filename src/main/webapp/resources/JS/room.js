@@ -16,7 +16,6 @@ $(document).ready(function(){
 			const fileCallPath = encodeURIComponent(fileName);
 			
 			$(this).find("img").attr('src', '/roomdisplay?fileName=' + fileCallPath);
-	
 		}
 	})
 })

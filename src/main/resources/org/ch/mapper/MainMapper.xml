@@ -19,7 +19,7 @@
 	
 	<!-- 방 정보 -->
 	<select id="room" resultType="org.ch.model.MainVO">
-	select bno,roomname,division,concat(Replace(uploadPath,'\\','/') ,'/','-' ,filename)AS filename,room1,price,people,structure,bed,checkin,checkout
+	select bno,roomname,division,concat(Replace(uploadPath,'\\','/') ,'/',filename)AS filename,room1,price,people,structure,bed,checkin,checkout
 	from(
 		select*
 			FROM(

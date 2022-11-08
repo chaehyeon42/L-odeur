@@ -8,23 +8,29 @@ $(document).ready(function(){
 	$(".quest").each(function(i, obj){
 		
 		const bobj = $(obj)
+		const fileName = bobj.data("filename");
+		const fileCallPath = encodeURIComponent(fileName);
 		console.log(bobj);
 		if(bobj.data("roomname")){
 
-			const fileName = bobj.data("filename");
-			
-			const fileCallPath = encodeURIComponent(fileName);
 			
 			$(this).find("img").attr('src', '/roomdisplay?fileName=' + fileCallPath);
 		}
-	})
 	
-	var ary = $('#standardimg') ;
-	window.onload = function(){
-	  i=1;
-	  setInterval(function(){
-	    var pic = document.getElementById('standardimg')
-	    pic.setAttribute("src",ary(i%3+1))
-	    i++;},2000);
-	}
+		
+		window.onload = function(){
+			var ary = $('.standardimg');
+			var imgs=[];			// var imgs=['/resources/img/suite.jpg', '/resources/img/SUITE2.jpg', '/resources/img/hall.jpg']
+
+			for(var i=0;i<ary.length;i++){
+				imgs[i]=ary[i].getAttribute("src")			
+			}
+			j=1;
+			setInterval(function(){
+			var pic = document.getElementById('roimg')
+			pic.setAttribute("src",imgs[j%3])
+			j++;},2000);
+		}
+	
+	})
 })

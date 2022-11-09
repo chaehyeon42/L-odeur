@@ -16,6 +16,9 @@ public class MainVO {
 	private String people;  //수용인원
 	private String structure;  //방구조
 	private String bed;  //침대 수
+	private String context;	//한줄설명
+	private String explanation;	//소개말
+	private String explanationadd; //소개말 추가
 	
 	//침실 사진 정보
 	private String filename;	//이미지 파일 이름
@@ -135,6 +138,24 @@ public class MainVO {
 	public void setBed(String bed) {
 		this.bed = bed;
 	}
+	public String getContext() {
+		return context;
+	}
+	public void setContext(String context) {
+		this.context = context;
+	}
+	public String getExplanation() {
+		return explanation;
+	}
+	public void setExplanation(String explanation) {
+		this.explanation = explanation;
+	}
+	public String getExplanationadd() {
+		return explanationadd;
+	}
+	public void setExplanationadd(String explanationadd) {
+		this.explanationadd = explanationadd;
+	}
 	//로그인때 사용
 	public String getMemberid() {
 		return memberid;
@@ -187,13 +208,12 @@ public class MainVO {
 		this.zipcode = zipcode;
 	}
 	
-	
-	
 	@Override
 	public String toString() {
 		return "MainVO [bno=" + bno + ", adult=" + adult + ", kid=" + kid + ", roomname=" + roomname + ", checkin="
 				+ checkin + ", checkout=" + checkout + ", room1=" + room1 + ", room2=" + room2 + ", price=" + price
-				+ ", people=" + people + ", structure=" + structure + ", bed=" + bed + ", filename=" + filename
+				+ ", people=" + people + ", structure=" + structure + ", bed=" + bed + ", context=" + context
+				+ ", explanation=" + explanation + ", explanationadd=" + explanationadd + ", filename=" + filename
 				+ ", division=" + division + ", uploadPath=" + uploadPath + ", image=" + image + ", memberid="
 				+ memberid + ", memberpw=" + memberpw + ", membername=" + membername + ", birthday=" + birthday
 				+ ", addr=" + addr + ", phonenumber=" + phonenumber + ", addr2=" + addr2 + ", zipcode=" + zipcode + "]";

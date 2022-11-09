@@ -21,7 +21,7 @@ $(document).ready(function(){
 		window.onload = function(){
 			var ary = $('.standardimg');
 			var imgs=[];			// var imgs=['/resources/img/suite.jpg', '/resources/img/SUITE2.jpg', '/resources/img/hall.jpg']
-
+			
 			for(var i=0;i<ary.length;i++){
 				imgs[i]=ary[i].getAttribute("src")			
 			}
@@ -29,7 +29,7 @@ $(document).ready(function(){
 			setInterval(function(){
 			var pic = document.getElementById('roimg')
 			pic.setAttribute("src",imgs[j%3])
-			j++;},2000);
+			j++;},8000);
 		}
 	
 	})

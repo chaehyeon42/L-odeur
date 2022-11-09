@@ -4,7 +4,8 @@
 }
 
 li {
-    list-style: none;
+	list-style: none;
+	display: flex;
 }
 
 #roomimg {
@@ -12,13 +13,17 @@ li {
 	width: 100%;
 }
 
-
-
 #rooms {
 	font-size: 80pt;
 	font-weight: bolder;
 	-webkit-text-stroke: 4px #8C8C8C;
 	color: white;
+}
+
+.Roomall {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 150px;
 }
 
 #roomtext {
@@ -42,7 +47,45 @@ li {
 	justify-content: space-between;
 }
 
-.standardimg {
-	width: 1000px;
-	height: 900px;
+#roimg {
+	width: 100%;
+	height: 760px;
+}
+
+img.standardimg {
+	display: none;
+}
+
+#roomp {
+	padding-right: 11px;
+	padding-bottom: 10px;
+}
+
+#imfor {
+	margin-top: 200px;
+}
+
+.roommain {
+	flex-direction: column;
+	display: flex;
+}
+
+.notice {
+	margin-left: 60px;
+	border: 1px solid;
+	border-color: #D5D5D5;
+}
+
+#notitle {
+	font-size: 20pt;
+	font-family: monospace;
+	font-weight: bold;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: cornflowerblue;
+	color: black;
+}
+
+#context {
+	font-size: 27pt;
+	font-weight: 900;
 }

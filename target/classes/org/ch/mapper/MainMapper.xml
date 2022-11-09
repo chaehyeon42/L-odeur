@@ -19,11 +19,11 @@
 	
 	<!-- 방 정보 -->
 	<select id="room" resultType="org.ch.model.MainVO">
-	select bno,roomname,division,concat(Replace(uploadPath,'\\','/') ,'/',filename)AS filename,room1,price,people,structure,bed,checkin,checkout
+	select bno,roomname,division,concat(Replace(uploadPath,'\\','/') ,'/',filename)AS filename,room1,price,people,structure,bed,checkin,checkout,context,explanation,explanationadd
 	from(
 		select*
 			FROM(
-				select R.bno,roomname,division,filename,uploadPath,room1,price,people,structure,bed,checkin,checkout
+				select R.bno,roomname,division,filename,uploadPath,room1,price,people,structure,bed,checkin,checkout,context,explanation,explanationadd
 					from rooms s join rommimg r on s.bno=r.bno where room1=#{room1} and image='1' and division='m')AS j ) AS tmp ;
 	</select>	
 	

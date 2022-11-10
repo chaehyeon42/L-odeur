@@ -62,5 +62,4 @@
 	</div>
 </div>
 <script type="text/javascript" src="../../../resources/JS/reservation.js"></script>
-</body>
-</html>
+<%@ include file="../Footer/footer.jsp"%>

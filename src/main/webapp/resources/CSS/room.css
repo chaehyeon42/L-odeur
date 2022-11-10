@@ -59,10 +59,17 @@ img.standardimg {
 #roomp {
 	padding-right: 11px;
 	padding-bottom: 10px;
+	font-size: 15pt;
 }
 
 #imfor {
-	margin-top: 200px;
+	margin-top: 100px;
+}
+
+#roomname{
+	font-size: 27pt;
+    font-weight: 900;
+    margin-bottom: 5pt;
 }
 
 .roommain {
@@ -74,8 +81,27 @@ img.standardimg {
 	margin-left: 60px;
 	border: 1px solid;
 	border-color: #D5D5D5;
+	padding: 20px;
+	height: 500px;
+	width: 500px;
 }
 
+#nottext {
+	font-size: 15pt;
+	padding: 20px;
+	font-family: fantasy;
+	flex-direction: column;
+}
+
+#textadd{
+	font-size: 10pt;
+    color: red;
+    font-family: monospace;
+}
+#explan {
+    font-size: 15pt;
+    font-family: monospace;
+}
 #notitle {
 	font-size: 20pt;
 	font-family: monospace;
@@ -88,4 +114,32 @@ img.standardimg {
 #context {
 	font-size: 27pt;
 	font-weight: 900;
+}
+
+/* 객실시설 */
+.facility{
+	display:flex;
+	justify-content: flex-start;
+}
+
+.type{
+	margin-right: 150px;
+}
+
+#roomfacility{
+	font-size: 27pt;
+    font-weight: 900;
+    margin-bottom: 5pt;
+    margin-top: 100px;
+}
+
+#typetitle{
+	font-size: 15pt;
+}
+
+#factype{
+	padding: 5pt;
+	color: #8C8C8C;
+	font-family: serif;
+    font-size: 15pt;
 }

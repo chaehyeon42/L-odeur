@@ -29,7 +29,7 @@ $(document).ready(function(){
 			setInterval(function(){
 			var pic = document.getElementById('roimg')
 			pic.setAttribute("src",imgs[j%3])
-			j++;},8000);
+			j++;},3000);
 		}
 	
 	})

@@ -192,7 +192,7 @@
 
 							<li>
 								<div class="act">
-									<img src="../../../resources/img/Buffet.jpg" id="actimg">
+									<img src="../../../resources/img/Buffet2.jpg" id="actimg">
 								</div>
 								<p class="actType">Buffet</p>
 							</li>

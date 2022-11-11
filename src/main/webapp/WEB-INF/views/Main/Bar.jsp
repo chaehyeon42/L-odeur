@@ -13,7 +13,7 @@
 		<p id="Introduct">Best taste, fresh ingredients
         restaurant buffet</p>
 		<p id="foodintro">한식,중식,양식,일식 등 전 세계 유명한 음식들을 선보이는 레스토랑으로,<br>
-		직영 농장에서 직수입해온 재료들을 최상의 퀄리티를 만들어주실 셰프님께서 계십니다.
+		직영 농장에서 직수입해온 재료들로 최상의 퀄리티를 만들어주실 셰프님과 함께 합니다.
 		</p>
 	</div>
 	

@@ -185,7 +185,7 @@
 						<ul id="actAll">
 							<li>
 								<div class="act">
-									<img src="../../../resources/img/BAR.jpg" id="actimg">
+									<img src="../../../resources/img/BAR2.jpg" id="actimg">
 								</div>
 								<p class="actType">BAR</p>
 							</li>

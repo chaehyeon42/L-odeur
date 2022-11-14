@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+
+button#slick-slide-control01 {
+	display: none;
+}
+
+button#slick-slide-control02 {
+	display: none;
+}
+
+button#slick-slide-control00 {
+	display: none;
+}
+
+button.slick-prev.slick-arrow {
+	margin-right: 10px;
+	height: 50px;
+	width: 200px;
+	background-color: white;
+	border-bottom: groove;
+	border-top: groove;
+	border-left: none;
+	border-right: none;
+	font-size: 14pt;
+	margin-top: 230px;
+}
+
+button.slick-next.slick-arrow {
+	margin-right: 496px;
+	margin-left: 10px;
+	height: 50px;
+	width: 205px;
+	background-color: white;
+	border-bottom: groove;
+	border-top: groove;
+	border-left: none;
+	border-right: none;
+	font-size: 14pt;
+	margin-top: 230px;
+}
+
+ul.slides.slick-initialized.slick-slider.slick-dotted {
+	display: flex;
+	justify-content: space-around;
+	margin-top:30px;
+}
+
+#poolTitle{
+	text-align: center;
+}
+
+#Hotelname{
+	font-size: 32pt;
+    font-family: cursive;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#swimmingpool{
+	font-size: 15pt;
+}
+
+#slideShow {
+    margin-left: 485px;
+}
+
+
+#slideimg {
+	width: 745px;
+	height: 500px;
+	display: flex;
+}
+
+.swimmingMain{
+	text-align: center;
+}

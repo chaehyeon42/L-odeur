@@ -44,7 +44,7 @@ public class MainController {
 			
 		return new ResponseEntity<>(MS.room2(m), HttpStatus.OK);
 	}
-	
+	 
 	
 	//예약을 누를때
 	@RequestMapping(value = "/reservation", method = RequestMethod.POST)
@@ -148,7 +148,11 @@ public class MainController {
 		return "Main/Bar";
     }
     
-
+    //수영장 화면
+    @RequestMapping(value = "/swimming", method = RequestMethod.GET)
+    public String swimming() {
+		return "Main/swimming";
+    }
 	
 	
 }

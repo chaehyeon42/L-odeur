@@ -6,6 +6,8 @@
 <div class="barall"> 
 	<div>
 	<img id="buffetimg" src="../../../resources/img/Buffet.jpg">
+	
+	<p class="Introducebuffet">Buffet</p>
 	</div>
 
 <div class="barmiddle">	
@@ -64,18 +66,18 @@
 				<td rowspan="3"  id="weekday">주중/주말</td>
 				<td id="buffetprice">BreakFast</td>
 				<td id="meal">
-				<p>성인 25,000원 / 청소년 15,000원 / 어린이 5,000원﻿
+				<p>성인 25,000원 / 청소년 15,000원 / 어린이 5,000원 / 영유아(0~36개월)﻿ 무료
 				</p></td>
 			</tr>
 			<tr>
 				<td id="buffetprice">Lunch</td>
-				<td id="meal"><p>성인 22,000원 / 청소년 14,000원 / 어린이 5,000원
+				<td id="meal"><p>성인 22,000원 / 청소년 14,000원 / 어린이 5,000원 / 영유아(0~36개월)﻿ 무료
 				</p></td>
 			</tr>
 
 			<tr>
 				<td  id="buffetprice">Dinner</td>
-				<td id="meal"><p>성인 20,000원 / 청소년 13,000원 / 어린이 5,000원
+				<td id="meal"><p>성인 20,000원 / 청소년 13,000원 / 어린이 5,000원 / 영유아(0~36개월)﻿ 무료
 				</p></td>
 			</tr>		
 		
@@ -93,14 +95,64 @@
 		</div>	
 	</div>
 </div>	
+
+<!-- Bar 화면  -->
 	<div class="Barborder">
 	</div>
 	
 	<div class="Bar">
 		<img id="buffetimg" src="../../../resources/img/BAR.jpg">
-
+		
+		<p class="IntroduceBAR">BAR</p>
+	</div>
+	
+	<div class="BarMain">
+		<div class="BarExplan">
+			<p id="Introduct">Bar where you can enjoy a variety of cocktails and <br> snacks with the night view</p>
+			<p id="foodintro">멋진 야경을 안주 삼아, 다양한 칵데일을 즐기며 행복한 추억을 선물합니다. </p>
+		</div>
+		
+	<p id="BuffetTime">운영 시간</p>	
+	<div class="foodTime">
+		<table id="week">
+			<tr>
+				<td rowspan="3"  id="weekday">주중/주말</td>
+			<tr>
+				<td id="cocktail">
+				<p id="BARENTER">Dinner:</p>
+				<p id="BARTIME">﻿♧ P.M 20:00 ~ P.M 22:30</p>
+				</td>
+			</tr>		
+		</table>
+		
+			
+		<p id="BuffetTime">이용 금액</p>	
+	
+		<table id="week">
+			<tr>
+				<td  id="weekday">주중/주말</td>
+				<td id="cocktail">
+				<p id="BARENTER">Admission fee:</p> 
+				<p>♧ 성인 5,000원</p>
+				</td>
+			</tr>
+		</table>
+		
+		<p id="BuffetTime">추가 정보</p>
+		<div id="addBuffet">
+			<ul>
+				<li id="add">▶카운터에 전화 하거나 아래 예약번호로 연락 주시면 예약 가능 합니다.</li>
+				<li id="add">▶만 19세 이상만 이용 가능합니다.</li>
+				<li id="add">▶미성년자는 출입 제한이 있습니다.</li>
+				<li id="add">▶BAR 사정에 따라 시간 변동이 있을 수 있습니다.</li>
+				<li id="add">▶주민등록증을 지참 하셔야 입장 가능합니다.</li>
+				<li id="add">▶웨이터에게 주문 후 홈 키를 주시면 체크아웃시 결제 됩니다.</li>
+				<li id="add">▶문의 및 예약 : 052-123-5678</li>
+			</ul>
+		</div>
+		
 	
 	</div>
 </div>
-
+</div>
 <%@ include file="../Footer/footer.jsp"%>

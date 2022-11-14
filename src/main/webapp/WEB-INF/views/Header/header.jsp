@@ -44,10 +44,10 @@
 							<li id="Menuhotel"><a href="/main" id="categryfont">About
 									the hotel</a></li>
 									
-							<li id="Menuhotel"><a href="#" id="categryfont">Buffet &
+							<li id="Menuhotel"><a href="/Bar" id="categryfont">Buffet &
 									Bar</a></li>
 
-							<li id="Menuhotel"><a href="#" id="categryfont">Swimming
+							<li id="Menuhotel"><a href="/swimming" id="categryfont">Swimming
 									pool</a></li>
 
 							<li id="Menuhotel"><a href="#" id="categryfont">Sauna</a></li>

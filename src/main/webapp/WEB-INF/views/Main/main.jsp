@@ -80,7 +80,7 @@
 							<li id="Menuhotel"><a href="/Bar" id="categryfont">Buffet
 									& Bar</a></li>
 
-							<li id="Menuhotel"><a href="#" id="categryfont">Swimming
+							<li id="Menuhotel"><a href="/swimming" id="categryfont">Swimming
 									pool</a></li>
 
 							<li id="Menuhotel"><a href="#" id="categryfont">Sauna</a></li>
@@ -185,21 +185,21 @@
 						<ul id="actAll">
 							<li>
 								<div class="act">
-									<img src="../../../resources/img/BAR2.jpg" id="actimg">
+									<a href="/Bar"><img src="../../../resources/img/BAR2.jpg" id="actimg"></a>
 								</div>
 								<p class="actType">BAR</p>
 							</li>
 
 							<li>
 								<div class="act">
-									<img src="../../../resources/img/Buffet2.jpg" id="actimg">
+									<a href="/Bar"><img src="../../../resources/img/Buffet2.jpg" id="actimg"></a>
 								</div>
 								<p class="actType">Buffet</p>
 							</li>
 
 							<li>
 								<div class="act">
-									<img src="../../../resources/img/HotelSwimming.jpg" id="actimg">
+									<a href="/swimming"><img src="../../../resources/img/HotelSwimming.jpg" id="actimg"></a>
 								</div>
 								<p class="actType">Swimming Pool</p>
 							</li>

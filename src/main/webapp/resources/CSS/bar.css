@@ -10,7 +10,20 @@ li {
 
 .barmiddle {
 	margin-left: 360px;
-    margin-top: 50px;
+	margin-top: 50px;
+}
+
+.Introducebuffet {
+	color: white;
+	font-size: 60pt;
+	-webkit-text-stroke-width: 3px; 
+	-webkit-text-stroke-color : black;
+	left: 50%;
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
 }
 
 #Introduct {
@@ -20,18 +33,18 @@ li {
 }
 
 #foodintro {
-    font-size: 16pt;
-    padding: 10px;
-    font-family: monospace;
-    color: #8C8C8C;
+	font-size: 16pt;
+	padding: 10px;
+	font-family: monospace;
+	color: #8C8C8C;
 }
 
 #BuffetTime {
-    margin-top: 80px;
-    font-size: 23pt;
-    font-family: monospace;
-    font-weight: bolder;
-    margin-bottom: 23px;
+	margin-top: 80px;
+	font-size: 23pt;
+	font-family: monospace;
+	font-weight: bolder;
+	margin-bottom: 23px;
 }
 
 #buffetimg {
@@ -62,31 +75,62 @@ li {
 #meal {
 	border-bottom: solid 1px;
 	border-color: #D5D5D5;
-	width: 450px;
+	width: 650px;
 	height: 68px;
 	font-size: 13pt;
 }
 
 /* 뷔페 가격 테이블 */
-#buffetprice{
+#buffetprice {
 	border-right: 1px solid;
 	border-bottom: 1px solid;
-	border-color: #D5D5D5;	
+	border-color: #D5D5D5;
 	width: 150px;
-    font-size: 18pt;
-    font-family: cursive;
-    color: dimgrey;
+	font-size: 18pt;
+	font-family: cursive;
+	color: dimgrey;
 }
 
-#addBuffet{
+#addBuffet {
 	margin-bottom: 200px;
 }
 
-#add{
+#add {
 	padding: 7px;
 }
 
-.Barborder{
+.Barborder {
 	border: 3px solid;
 	border-color: #8C8C8C;
+}
+
+/* 바 css */
+.BarMain {
+	margin-left: 360px;
+	margin-top: 50px;
+}
+
+#cocktail {
+	border-bottom: solid 1px;
+	border-color: #D5D5D5;
+	width: 450px;
+	height: 68px;
+	font-size: 17pt;
+}
+
+#BARENTER {
+	font-family: cursive;
+	color: dimgrey;
+	font-size: 25pt;
+}
+
+.IntroduceBAR{
+	color: white;
+	font-size: 75pt; 
+	-webkit-text-stroke-width: 3px; 
+	-webkit-text-stroke-color : black;
+	left: 45%;
+	position: absolute;
+	text-align: center;
+	top: 283%;
 }

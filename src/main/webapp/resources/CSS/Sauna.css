@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+#Saunaimg {
+	width: 100%;
+	height: 850px;
+}
+
+#SaunaTitle {
+	text-align: center;
+}
+
+.HotelName {
+	font-size: 32pt;
+	font-family: cursive;
+	font-weight: 700;
+	margin-top: 30px;
+}
+
+.HotelSauna {
+	font-size: 15pt;
+}
+
+.Saunaimg {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 25px;
+}
+
+#SAUNA {
+	width: 570px;
+	height: 570px;
+}
+
+#SAUNAMAIN {
+	width: 710px;
+	height: 640px;
+}
+
+#operating {
+	margin-top: 95px;
+	font-size: 23pt;
+	font-family: monospace;
+	font-weight: bolder;
+	margin-bottom: 23px;
+}
+
+#meal {
+	border-bottom: solid 1px;
+	border-color: #D5D5D5;
+	width: 600px;
+	height: 68px;
+	font-size: 16pt;
+}
+
+#week {
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-collapse: collapse;
+	border-color: #A6A6A6;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#Saunaday {
+	border-right: solid 1px;
+	border-bottom: solid 1px;
+	border-color: #D5D5D5;
+	width: 260px;
+	height: 110px;
+	font-size: 25pt;
+	font-family: monospace;
+	height: 110px;
+}
+
+.Saunamiddle {
+	margin-left: 485px;
+}
+
+#imgShow {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+#Saunatext {
+	margin-top: 20px;
+	font-family: fantasy;
+	font-size: 12pt;
+	text-align: center;
+	color: #A6A6A6;
+}
+
+#Precaution {
+	font-size: 23pt;
+	font-family: monospace;
+	font-weight: bolder;
+	margin-top: 90px;
+	margin-bottom: 20px
+}
+
+#border {
+	border: 1px solid;
+	border-color: #D5D5D5;
+	width: 90%;
+	margin: auto;
+}

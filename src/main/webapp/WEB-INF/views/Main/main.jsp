@@ -206,7 +206,7 @@
 
 							<li>
 								<div class="act">
-									<img src="../../../resources/img/SAUNA.jpg" id="actimg">
+									<a href="/Sauna"><img src="../../../resources/img/SAUNA.jpg" id="actimg"></a>
 								</div>
 								<p class="actType">SAUNA</p>
 							</li>

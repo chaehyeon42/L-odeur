@@ -50,7 +50,7 @@
 							<li id="Menuhotel"><a href="/swimming" id="categryfont">Swimming
 									pool</a></li>
 
-							<li id="Menuhotel"><a href="#" id="categryfont">Sauna</a></li>
+							<li id="Menuhotel"><a href="/Sauna" id="categryfont">Sauna</a></li>
 							
 							<li id="Menuhotel"><a href="/signup"  id="categryfont">Sign-up</a></li>
 						</ul>

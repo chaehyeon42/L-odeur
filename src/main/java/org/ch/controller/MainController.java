@@ -154,6 +154,11 @@ public class MainController {
 		return "Main/swimming";
     }
 	
+  //찜질방 화면
+    @RequestMapping(value = "/Sauna", method = RequestMethod.GET)
+    public String Sauna() {
+		return "Main/Sauna";
+    }
 	
 }
 

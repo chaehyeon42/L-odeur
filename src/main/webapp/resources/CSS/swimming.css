@@ -92,7 +92,7 @@ ul.slides.slick-initialized.slick-slider.slick-dotted {
 	color: #8C8C8C;
 }
 
-/* 운영시간 css */
+/* �슫�쁺�떆媛� css */
 #operating {
 	margin-top: 95px;
 	font-size: 23pt;
@@ -143,4 +143,8 @@ ul.slides.slick-initialized.slick-slider.slick-dotted {
 
 #pooladd{
 	padding: 7px;
+}
+
+#Precaut{
+	margin-bottom: 200px;
 }

@@ -1,7 +1,7 @@
 package org.ch.model;
 
 public class MainVO {
-	//예약시 정보
+	//예약시 정보(reservation)
 	private int bno;		//예약 번호
 	private int adult;		//어른 수
 	private int kid;		//아이 수
@@ -11,7 +11,7 @@ public class MainVO {
 	private String room1;	//방 선택
 	private String room2;	//방 선택 후 확인	
 	
-	//방 상세정보
+	//방 상세정보(rooms)
 	private String price;  //방가격
 	private String people;  //수용인원
 	private String structure;  //방구조
@@ -20,13 +20,13 @@ public class MainVO {
 	private String explanation;	//소개말
 	private String explanationadd; //소개말 추가
 	
-	//침실 사진 정보
+	//침실 사진 정보(romming)
 	private String filename;	//이미지 파일 이름
 	private String division;	//이미지 구분
 	private String uploadPath;	//이미지 파일 경로
 	private boolean image;		//이미지 파일인지 아닌지에 대한 정보
 	
-	//로그인 정보
+	//로그인 정보(member)
 	private String memberid;	//아이디
 	private String memberpw;	//비밀번호
 	private String membername;	//이름(회원가입 한 사람) 
@@ -34,7 +34,7 @@ public class MainVO {
 	private String addr;		//도로명주소
 	private int phonenumber;	//핸드폰 번호
 	
-	//회원가입
+	//회원가입(member)
 	private String addr2; 	//상세주소
 	private String zipcode; 	//우편번호
 

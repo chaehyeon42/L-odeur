@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="../../../resources/CSS/room.css">
 
 <img id="roimg" src="${room[0].filename}">
+
 <div class="Roomall">
 	<div class="roommain">
 		<c:forEach items="${room}" var="room">
@@ -20,7 +21,7 @@
 
 				</li>
 			</ul>
-		</c:forEach>
+		</c:forEach>	
 
 		<ul class="roomex">
 			<li>

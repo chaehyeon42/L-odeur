@@ -167,6 +167,6 @@ function quickClick(){
 		 location.href = "${path}/reservation";
 		})
 	
-
+		
 
 }

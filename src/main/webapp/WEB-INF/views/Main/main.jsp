@@ -144,12 +144,10 @@
 									class="result" name="kid" value="0">
 									<button type="button" id="plus" class="but" value="+">+</button>
 									<button type="button" id="minus" class="but" value="-">-</button>
-							</span> <span id="personnel"> <input type="hidden"
-									value="${sessionScope.memberid}" name="memberid">
+							</span> <span id="personnel"> <input type="hidden" value="${sessionScope.memberid}" name="memberid">
 							</span></li>
 						</ul>
-						<button id="reservation" type="submit">예약하러
-							가기(reservation)</button>
+						<button id="reservation" type="submit">예약하러 가기(reservation)</button></a>
 
 					</form>
 				</div>
@@ -185,7 +183,7 @@
 						<ul id="actAll">
 							<li>
 								<div class="act">
-									<a href="/Bar"><img src="../../../resources/img/BAR2.jpg" id="actimg"></a>
+									<a href="/Bar#BarMenu"><img src="../../../resources/img/BAR2.jpg" id="actimg"></a>
 								</div>
 								<p class="actType">BAR</p>
 							</li>

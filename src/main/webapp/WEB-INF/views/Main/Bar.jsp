@@ -100,7 +100,7 @@
 	<div class="Barborder">
 	</div>
 	
-	<div class="Bar">
+	<div class="Bar" id="BarMenu">
 		<img id="buffetimg" src="../../../resources/img/BAR.jpg">
 		
 		<p class="IntroduceBAR">BAR</p>

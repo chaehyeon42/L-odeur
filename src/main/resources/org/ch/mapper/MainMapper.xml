@@ -7,8 +7,7 @@
 
 	<!-- 방 예약시 분류 -->
 	<select id="room1" resultType="org.ch.model.MainVO">
-		select distinct(room1) from
-		rooms
+		select distinct(room1) from rooms
 	</select>
 
 	<select id="room2" resultType="org.ch.model.MainVO">

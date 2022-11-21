@@ -64,7 +64,9 @@
 					</div>
 
 					<div id="member">
+					<c:if test="${not empty sessionScope.memberid}">
 						<a href="/reservation" class="logina"><p>reservation</p></a>
+					</c:if>	
 					</div>
 
 					<input type="checkbox" id="icon"> <label for="icon">
@@ -147,8 +149,10 @@
 							</span> <span id="personnel"> <input type="hidden" value="${sessionScope.memberid}" name="memberid">
 							</span></li>
 						</ul>
-						<button id="reservation" type="submit">예약하러 가기(reservation)</button></a>
-
+						<c:if test="${not empty sessionScope.memberid}">
+						<button id="reservation" type="submit">예약하러 가기(reservation)</button>
+						</c:if>
+						
 					</form>
 				</div>
 

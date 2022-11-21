@@ -161,12 +161,5 @@ function quickClick(){
 	 });
 	 
 	 
-	 //예약 버튼
-	 $("#reservation").click(function() {
-		 alert("예약이 완료 되었습니다.")
-		 location.href = "${path}/reservation";
-		})
-	
-		
 
 }

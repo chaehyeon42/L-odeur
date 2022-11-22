@@ -132,17 +132,17 @@
 							<!-- 인원수 -->
 							<li id="person"><span id="personnroom2"> <select
 									id="room2" name="roomname">
-										<option>"방을 선택해주세요"</option>
+										<option>방 선택</option>
 								</select>
 							</span>
 
-								<hr> <span id="personnel">어른(Adult) <input
+								<hr> <span id="personnel">Adult : <input
 									type="text" id="numberUpDown" name="adult" value="0">
-									<button type="button" id="increaseQuantity">+</button>
-									<button type="button" id="decreaseQuantity">-</button>
+									<button type="button" id="increaseQuantity" class="btn">+</button>
+									<button type="button" id="decreaseQuantity" class="btn">-</button>
 							</span>
 
-								<hr> <span id="personnel">아이(Kid) <input type="text"
+								<hr> <span id="personnel">Kid : <input type="text"
 									class="result" name="kid" value="0">
 									<button type="button" id="plus" class="but" value="+">+</button>
 									<button type="button" id="minus" class="but" value="-">-</button>

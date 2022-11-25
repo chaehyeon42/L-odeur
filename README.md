@@ -1,4 +1,4 @@
-# L-odeur
+# L-odeur HOTEL
 
 
 ![프로젝트1](https://user-images.githubusercontent.com/107925656/203750479-6c6a8dbe-5afe-494d-8356-9843ae195baa.png)
